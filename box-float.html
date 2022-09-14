@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box-float</title>
+</head>
+
+<body>
+    <style>
+        #wrapper {
+            width: 800px;
+            margin: 0px auto;
+        }
+
+        /* .box-1 {
+            width: 300px;
+            height: 200px;
+            background: #79f463 ;
+            float: left;
+        }
+
+        .box-2 {
+            width: 400px;
+            height: 200px;
+            background: #383938 ;
+            float:left;
+        } */
+
+        .post-thumb {
+            width: 200px;
+            display: block; 
+            float: left; 
+            padding-right: 15px;
+
+        }
+
+        .post-thumb img {
+            max-width: 100%;
+        }
+        .post-title{
+             display: block;
+             margin-bottom: 20px;
+             text-decoration: none;
+            
+        } 
+        .text-justify{
+            text-align: justify;
+        }
+    </style>
+    <div id="wrapper">
+        <h1>float</h1>
+        <!-- <div class="box-1">
+            Box1
+        </div>
+        <div class="box-2">
+        </div> -->
+        <article>
+            <a href="" class="post-title">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum, facilis!</a>
+            <a href="" class="post-thumb">
+                <img src="image/media.jpg" alt="">
+            </a>
+            <p class="text-justify">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem eaque animi tenetur eligendi quam. Velit
+                aut illum exercitationem iure aliquam molestiae modi maxime neque sint laborum, fuga dolor, esse
+                provident. Architecto voluptatem laudantium vitae eum a repellendus maiores delectus consequuntur.</p>
+        </article>
+    </div>
+
+
+</body>
+
+</html>
